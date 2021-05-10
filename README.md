@@ -12,15 +12,14 @@ Rhel: 8.3
 
 1. Set the optional flags according to your use-case
 ## FLAG options
-HASHFLAG=1                              ###### HashFlag 1=enable : get binary hash
-CLAMAVFLAG=0                            ###### clamavFlag 1= install clamav and scan full
-
-RKHUNTERFLAG=1                          ###### rkhunterFlag 1= install rkhunter and scan
-MESSAGEFLAG=1                           ###### messageFlag 1= collect /var/log/messages and syslog (eg: mail log)
-BACKUPFLAG=1                            ###### BACKUPFLAG 1= copy web server conf, contents for backup
-MEMDUMPFLAG=1                           ###### MEMDUMPFLAG 1= isntall LiME kernel module and dump memory
-DEBIANFLAG=1				                        ###### DEBIANFLAG 1= installs make, linux-headers, gcc and adds repository universe
-RHELFLAG=0 				                         ###### RHELFLAG 1= installs make, kernel-headers, kernel-devel, gcc
+HASHFLAG=1      - hashFlag 1=enable : get binary hash
+CLAMAVFLAG=0    - clamavFlag 1= install clamav and scan full
+RKHUNTERFLAG=1  - rkhunterFlag 1= install rkhunter and scan
+MESSAGEFLAG=1   - messageFlag 1= collect /var/log/messages and syslog (eg: mail log)
+BACKUPFLAG=1    - BACKUPFLAG 1= copy web server conf, contents for backup
+MEMDUMPFLAG=1   - MEMDUMPFLAG 1= isntall LiME kernel module and dump memory
+DEBIANFLAG=1				- DEBIANFLAG 1= installs make, linux-headers, gcc and adds repository universe
+RHELFLAG=0 				 - RHELFLAG 1= installs make, kernel-headers, kernel-devel, gcc
 
 `sudo ./dTuxTriage.sh`
 
