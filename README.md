@@ -29,9 +29,9 @@ Fix a proper working AV scan.
  
 # Changes:
 
-2021-05-10
-Fixed numerous small bugs and mispelled referals
-Added new function to check for available space and check the size of memory and take that into account wether to run or not. 
-Added function for memdump and creating a volatility profile
-Added flags for debian/rhel to supp
-Added newer version of RKhunter and ClamAV to the repository
+2021-05-10<br />
+Fixed numerous small bugs and mispelled referals<br />
+Added a new function to check for available diskspace and check the size of volatilememory and take that into account wether to run or not. <br />
+Added function for memdump and creating a volatility profile<br />
+Added flags for debian/rhel to supp<br />
+Added newer version of RKhunter and ClamAV to the repository<br />
