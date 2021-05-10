@@ -9,11 +9,11 @@ Ubuntu: 20.04, 16.04
 Rhel: 8.3
 
 
-Planned changes:
+# Planned changes:
 Fix a proper working AV scan.
 
-
-Changes:
+ 
+# Changes:
 
 2021-05-10
 Fixed numerous small bugs and mispelled referals
