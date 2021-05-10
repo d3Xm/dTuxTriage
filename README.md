@@ -5,7 +5,7 @@ It will swiftly gather essential information from the potentially compromised as
 The output will look like the following: <br />
 
 <p align="center">
-  <img width="2176" height="90" src="https://imgur.com/F74kXB">
+  <img width="2172" height="86" src="https://i.imgur.com/F74kXB5.png">
 </p>
 
 # dTuxTriage has been tested on: <br />
