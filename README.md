@@ -1,7 +1,12 @@
 # dTuxTriage
 
 dTuxTriage is a tool for incident response triage of linux systems based on the work of Recruit-CSIRT.<br />
-It will swiftly gather essential information from the potentially compromised as well as scan for backdoors, rootkits hash files on disk and supports dumping memory aswell as creating a volatility profile for the memdump depending on what flags are set.
+It will swiftly gather essential information from the potentially compromised as well as scan for backdoors, rootkits hash files on disk and supports dumping memory aswell as creating a volatility profile for the memdump depending on what flags are set.<br />
+The output will look like the following: <br />
+
+<p align="center">
+  <img width="2176" height="90" src="https://imgur.com/F74kXB">
+</p>
 
 # dTuxTriage has been tested on: <br />
 Debian: 10.8 <br />
