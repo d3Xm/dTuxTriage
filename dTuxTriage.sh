@@ -37,9 +37,9 @@ CLAMAVFLAG=0                            ###### clamavFlag 1= install clamav and 
 RKHUNTERFLAG=1                          ###### rkhunterFlag 1= install rkhunter and scan
 MESSAGEFLAG=1                           ###### messageFlag 1= collect /var/log/messages and syslog (eg: mail log)
 BACKUPFLAG=1                            ###### BACKUPFLAG 1= copy web server conf, contents for backup
-MEMDUMPFLAG=1                           ###### MEMDUMPFLAG 1= isntall LiME kernel module and dump memory
-DEBIANFLAG=1				            ###### DEBIANFLAG 1= installs make, linux-headers, gcc and adds repository universe
-RHELFLAG=0 				                ###### RHELFLAG 1= installs make, kernel-headers, kernel-devel, gcc
+MEMDUMPFLAG=1                           ###### MEMDUMPFLAG 1= installs LiME kernel module and dump memory
+DEBIANFLAG=1				###### DEBIANFLAG 1= installs make, linux-headers, gcc and adds repository universe
+RHELFLAG=0 				###### RHELFLAG 1= installs make, kernel-headers, kernel-devel, gcc
 
 
 
