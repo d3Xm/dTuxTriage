@@ -1,9 +1,9 @@
 # dTuxTriage
 
-dTuxTriage is a tool for incident response triage of linux systems based on the work of Recruit-CSIRT.
-it will gather essential information from the system and supports dumping memory aswell as creating a volatility profile for the memdump.
+dTuxTriage is a tool for incident response triage of linux systems based on the work of Recruit-CSIRT.<br />
+It will swiftly gather essential information from the potentially compromised as well as scan for backdoors, rootkits hash files on disk and supports dumping memory aswell as creating a volatility profile for the memdump depending on what flags are set.
 
-dTuxTriage has been tested on: <br />
+# dTuxTriage has been tested on: <br />
 Debian: 10.8 <br />
 Ubuntu: 20.04, 16.04 <br />
 Rhel: 8.3 <br />
@@ -33,5 +33,5 @@ Fix a proper working AV scan.
 Fixed numerous small bugs and mispelled referals<br />
 Added a new function to check for available diskspace and check the size of volatilememory and take that into account wether to run or not. <br />
 Added function for memdump and creating a volatility profile<br />
-Added flags for debian/rhel to supp<br />
+Added flags for debian/rhel to install/use software needed to support memory dump<br />
 Added newer version of RKhunter and ClamAV to the repository<br />
