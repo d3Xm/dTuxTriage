@@ -3,10 +3,10 @@
 dTuxTriage is a tool for incident response triage of linux systems based on the work of Recruit-CSIRT.
 it will gather essential information from the system and supports dumping memory aswell as creating a volatility profile for the memdump.
 
-dTuxTriage has been tested on:
-Debian: 10.8
-Ubuntu: 20.04, 16.04
-Rhel: 8.3
+dTuxTriage has been tested on: <br />
+Debian: 10.8 <br />
+Ubuntu: 20.04, 16.04 <br />
+Rhel: 8.3 <br />
 
 # Usage
 
