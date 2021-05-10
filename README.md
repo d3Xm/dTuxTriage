@@ -13,7 +13,9 @@ Rhel: 8.3
 1. Set the optional flags according to your use-case
 ## FLAG options
 HASHFLAG=1                              ###### HashFlag 1=enable : get binary hash
+
 CLAMAVFLAG=0                            ###### clamavFlag 1= install clamav and scan full
+
 RKHUNTERFLAG=1                          ###### rkhunterFlag 1= install rkhunter and scan
 MESSAGEFLAG=1                           ###### messageFlag 1= collect /var/log/messages and syslog (eg: mail log)
 BACKUPFLAG=1                            ###### BACKUPFLAG 1= copy web server conf, contents for backup
