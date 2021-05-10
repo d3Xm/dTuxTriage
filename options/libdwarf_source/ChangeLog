@@ -1,0 +1,23 @@
+2021-03-05: David Anderson
+    * configure.ac: Now version 20210305.
+    * configure: Regenerated.
+2021-02-14: David Anderson
+2021-02-19: David Anderson
+    * scripts/ddbuild.sh: needed a -DSKIP_AF_CHECK
+      to allow building a helper program that
+      emits C source for dwarfdump.
+2021-02-15: David Anderson
+    * configure.ac: Now version 20210214.
+    * configure: Regenerated.
+2021-02-14: David Anderson
+    * scripts/ddbuild.sh: Now also builds a table
+      for initializing standard attr/form tables
+      for checking attr/form combinations.
+2021-01-19: David Anderson
+    * scripts/conddef.py,scripts/find_pdfpages.py,
+      scripts/funcfinderhdr.py,scripts/funcfindermm.py,
+      scripts/funcfindersrcs.py,scripts/haveinclude.py:
+      All now are fairly close to following the Python
+      PEP 8 style guide.`
+
+
