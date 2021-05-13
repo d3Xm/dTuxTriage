@@ -41,3 +41,5 @@ Added a new function to check for available diskspace and check the size of vola
 Added function for memdump and creating a volatility profile<br />
 Added flags for debian/rhel to install/use software needed to support memory dump<br />
 Added newer version of RKhunter and ClamAV to the repository<br />
+Added gathering of auditD logs<br />
+Added gathering of IPtable rules<br />
